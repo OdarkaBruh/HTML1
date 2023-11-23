@@ -1,0 +1,146 @@
+body {
+	font-size: 15px;
+  	font-family: arial,sans-serif;
+
+	background: lightblue;
+}
+
+.title {
+	margin: 20px 200px 20px;
+	vertical-align: middle;
+	margin-left: 10%;
+	max-width: 50px;
+}
+
+.title button {
+	margin-left: inherit;
+	background: skyblue;
+	color: darkblue;
+	width: 10%;
+	min-width: 100px;
+	height: 7%;
+	padding: 5px;
+	border: none;
+}
+.title h3 {
+	font-size: 25px;
+	margin-left: inherit;
+	color: darkblue;
+	font-family: "Lucida Console", "Courier New", monospace;
+
+}
+.input{
+	background: lightblue;
+	margin: auto;
+}
+
+form {
+	font-size: 20px;
+	position: absolute;
+	transform: translate(20%, 60%);
+	width: 70%;
+	z-index: 1;
+	border-radius: 5px;
+	color: white;
+	display: inline-flex;
+	align-items: center;
+}
+
+#form input {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	width: 90%;
+	
+	height: 50px;
+	font-size: 150%;
+}
+
+#form button {
+	margin-left: 5%;
+	width: 20%;
+	height: 40px;
+}
+
+.jobs {
+	width: 80%;
+
+ 	margin: auto;
+}
+
+#jobs {
+	padding: 20px;
+	background: whitesmoke;
+	text-align: left;
+}
+
+#jobs h3 {
+	font-size: 20px;
+	color: darkblue;
+}
+
+#jobs p {
+	font-size: 15px;
+}
+
+#jobs .divTitle img {
+	margin-left: 20px;
+	width: 2%;
+	height:auto;
+	object-fit: scale-down;
+}
+
+#jobs .divTitle {
+	margin-left: 15px;
+	align-items: center;
+	display: flex;
+	text-align: left;
+}
+
+#jobs .divTitle h2{
+	margin-left: 20px;
+	}
+
+#jobs .divShort {
+	margin-left: 20px;
+}
+#jobs .divMain {
+	border-bottom: 1px solid dimgrey;
+}
+#jobs .divMain h3{
+	margin: 0px;
+	color: #252E7B;
+	font-size: 17px;
+	margin-left: 40px;
+	display: inline-block;
+	height: 80%;
+}
+
+#jobs .divDescription {
+	
+}
+
+.input img{
+	z-index: 0;
+
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+
+	width:80%;
+	min-height: 130px;
+	max-height: 150px;
+	object-fit: cover;
+}
+
+img	{
+	margin: inherit;
+	border-radius: 10px;
+}
+
+footer {
+	text-align: center;
+	background: ghostwhite;
+	color: blue;
+	font-size: 15px;
+}
